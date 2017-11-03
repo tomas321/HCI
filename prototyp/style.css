@@ -1,0 +1,99 @@
+.logo {
+	width: 200px;
+}
+
+.avatar {
+	width: 100px;
+}
+
+.top-header {
+	margin: 0;
+	padding: 5px;
+}
+
+.main-content {
+	padding: 3rem 0;
+	text-align: center;
+}
+
+.main-content .main-grid > div {
+	padding: 2rem 5px;
+}
+
+.main-content .main-grid > div h2 {
+	font-size: 1.5em;
+}
+
+.main-content .card-body {
+	padding: 5px;
+}
+
+.recipe-preview {
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	margin: 1rem 0;
+	position: relative;
+}
+
+.recipe-preview img {
+	border-radius: 5px;
+	width: 100%;
+}
+
+.recipe-preview .description {
+	background-color: #000000;
+	border-radius: 0 0 5px 5px;
+	position: absolute;
+	bottom: 0;
+	height: 45px;
+	width: 100%;
+	padding: 0 10px;
+}
+
+.recipe-preview .description .title {
+	color: #ffffff;
+	font-size: 1em;
+	float: left;
+	line-height: 45px;
+}
+
+.recipe-preview .description .rating {
+	float: right;
+	line-height: 45px;
+}
+
+.article-preview .card-text {
+	text-align: left;
+}
+
+.article-preview .card-img-preview {
+	max-height: 100px;
+	max-width: 130px;
+	float: left;
+	margin-top: 0.5em;
+	margin-right: 0.5em;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+.footer {
+	background-color: #f5f5f5;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	line-height: 60px; /* Vertically center the text there */
+	text-align: center;
+}
+
+.footer .row {
+	margin: 0;
+}
+
