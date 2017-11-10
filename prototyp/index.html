@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<title>ToVonia.sk</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<div class="row top-header">
+				<div class="col-sm">
+					<img class="logo mx-auto d-block" src="images/logo.png" />
+				</div>
+				<div class="col-sm d-flex flex-column justify-content-center text-center">
+					<form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+					</form>
+				</div>
+				<div class="d-lg-none w-100"></div>
+				<div class="col-sm d-flex flex-column justify-content-center text-center">
+					<p>Máš super nápady?</p>
+					<button class="btn btn-primary">Pridaj recept</button>
+				</div>
+				<div class="col-sm">
+					<div class="row">
+						<div class="col d-flex flex-column justify-content-center">
+							<div class="row">
+								<button class="btn">Prihlásenie</button>
+							</div>
+							<div class="row">
+								<button class="btn">Registrácia</button>
+							</div>
+						</div>
+						<div class="col">
+							<img class="avatar mx-auto d-block" src="images/avatar.png" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<div></div> <!-- This div forces the toggler to appear on the right side of the screen -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="main-navbar">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown">Mäsíčko</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Kuracinka</a>
+								<a class="dropdown-item" href="#">Jahňacinka</a>
+								<a class="dropdown-item" href="#">Bravčovinka</a>
+								<a class="dropdown-item" href="#">Rybacinka</a>
+								<a class="dropdown-item" href="#">Hovädzinka</a>
+								<a class="dropdown-item" href="#">Teľacinka</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown">Bez mäsíčka</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Vegánske</a>
+								<a class="dropdown-item" href="#">Vegetariánske</a>
+								<a class="dropdown-item" href="#">Šalátiky</a>
+								<a class="dropdown-item" href="#">Hríbiky</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown">Bezlepkové</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Bezlaktózové</a>
+								<a class="dropdown-item" href="#">Diabetické</a>
+							</div>
+						</li>
+						<!--
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Bez mäsíčka</a>
+						</li>
+						-->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown">Polievočky</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">So zeleninkou</a>
+								<a class="dropdown-item" href="#">Vývary</a>
+								<a class="dropdown-item" href="#">Krémové</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown">Maškrtky</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Tortičky</a>
+								<a class="dropdown-item" href="#">Koláčiky</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown">FIT receptíky</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Nízkotučné</a>
+								<a class="dropdown-item" href="#">Nízkokalorické</a>
+								<a class="dropdown-item" href="#">Smoothies</a>
+							</div>
+						</li>
+						<!-- TODO -->
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<main role="main" class="container-fluid">
+
+		<div class="main-content">
+			<h1>Nadpis</h1>
+
+			<div class="row main-grid">
+				<div class="col-sm-4">
+					<h2>Najobľúbenejšie jedlá</h2>
+					<div class="recipe-preview">
+						<a href="#">
+							<img class="img-fluid" src="images/recipe.png" />
+							<div class="description">
+								<h4 class="title">Bryndzové halušky</h4>
+								<div class="rating">Rating</div>
+							</div>
+						</a>
+					</div>
+					<div class="recipe-preview">
+						<a href="#">
+							<img class="img-fluid" src="images/recipe.png" />
+							<div class="description">
+								<h4 class="title">Bryndzové halušky</h4>
+								<div class="rating">Rating</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<h2>Najobľúbenejšie múčniky</h2>
+					<div class="recipe-preview">
+						<a href="#">
+							<img class="img-fluid" src="images/recipe.png" />
+							<div class="description">
+								<h4 class="title">Bryndzové halušky</h4>
+								<div class="rating">Rating</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<h2>Články</h2>
+					<div class="card article-preview">
+						<div class="card-body">
+							<h4 class="card-title"><a href="#">Článok</a></h4>
+							<img class="card-img-preview" src="images/recipe.png" alt="Image" />
+							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<span class="text-muted">Copyright &copy; Teddy Metal - 2017</span>
+			</div>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	</body>
+</html>
+
