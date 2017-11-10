@@ -11,6 +11,12 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  color: black;
+}
+
+
+a.nav-link {
+  color: black !important;
 }
 
 h1, h2, h3, h4, h5, h6, .text-heading {
@@ -43,7 +49,7 @@ input::placeholder{
 }
 
 .text-shadow {
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 .text-lg {
@@ -51,7 +57,7 @@ input::placeholder{
 }
 
 .bg-faded {
-  background-color: rgba(139, 69, 19, 0.2);
+  background-color: rgba(139, 69, 19, 0.6);
 }
 
 .bg-overlay {
