@@ -17,7 +17,7 @@ $(document).ready(function(){
 		$("#steps div:last").before(step);
 		$("#steps div:last").before(image);
 	});
-	$("#searchLabel").click(function(evemt){
+	$("#searchLabel").click(function(event){
 		event.preventDefault();
 		$("#search").show();
 	});
