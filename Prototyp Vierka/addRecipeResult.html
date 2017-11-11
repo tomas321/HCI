@@ -33,24 +33,36 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
       <div class="container">
-        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">ToVonia.sk</a>
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="addRecipe.html">ToVonia.sk</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="index.html"><strong>Predjedlá</strong>
-              </a>
+            <li class="nav-item px-lg-4 dropdown-under">
+              <a class="nav-link text-uppercase text-expanded" href="#"><strong>Predjedlá</strong></a>
             </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="about.html"><strong>Polievky</strong></a>
+            <li class="nav-item px-lg-4 dropdown-under">
+              <a class="nav-link text-uppercase text-expanded" href="#"><strong>Polievky</strong></a>
             </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="blog.html"><strong>Hlavné jedlá</strong></a>
+            <li class="nav-item px-lg-4 dropdown-under">
+              <a class="nav-link text-uppercase text-expanded dropdown-toggle" data-toggle="dropdown" href="#"><strong>Hlavné jedlá</strong></a>
+			  <div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Kuracinka</a>
+								<a class="dropdown-item" href="#">Jahňacinka</a>
+								<a class="dropdown-item" href="#">Bravčovinka</a>
+								<a class="dropdown-item" href="#">Rybacinka</a>
+								<a class="dropdown-item" href="#">Hovädzinka</a>
+								<a class="dropdown-item" href="#">Teľacinka</a>
+			  </div>
             </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="contact.html"><strong>Dezerty</strong></a>
+            <li class="nav-item px-lg-4 dropdown-under">
+              <a class="nav-link text-uppercase text-expanded dropdown-toggle" data-toggle="dropdown" href="#"><strong>Dezerty</strong></a>
+			  <div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Torty</a>
+								<a class="dropdown-item" href="#">Zákusky</a>
+								<a class="dropdown-item" href="#">Koláče</a>
+			  </div>
             </li>
             <li class="nav-item px-lg-4">
               <form action="searchResult.html">
@@ -59,6 +71,13 @@
                   <input type="text" name="search" id="search">
                 </label>
               </form>
+            </li>
+			<li class="nav-item px-lg-4 dropdown-under">
+              <a class="nav-link text-uppercase text-expanded dropdown-toggle" data-toggle="dropdown" href="#"><strong>Účet</strong></a>
+			    <div class="dropdown-menu">
+				  <a class="dropdown-item" href="#">Prihlásenie</a>
+				  <a class="dropdown-item" href="registration.html">Registrácia</a>
+				</div>
             </li>
           </ul>
         </div>
