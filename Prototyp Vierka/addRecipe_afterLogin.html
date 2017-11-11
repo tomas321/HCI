@@ -27,13 +27,13 @@
 
   <body>
 
-    <a class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block" href="addRecipe.html">ToVonia.sk!</a>
+    <a class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block" href="addRecipe_afterLogin.html">ToVonia.sk!</a>
     <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">Recepty, ktoré ti udrú do nosa.</div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
       <div class="container">
-        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="addRecipe.html">ToVonia.sk</a>
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="addRecipe_afterLogin.html">ToVonia.sk</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -65,19 +65,16 @@
 			  </div>
             </li>
             <li class="nav-item px-lg-4">
-              <form action="searchResult.html">
-                <label class="nav-link text-uppercase text-expanded" for="search" id="searchLabel">
+              <form action="searchResult_afterLogin.html">
+                <a class="nav-link text-uppercase text-expanded" for="search" id="searchLabel" href="#">
                   <strong><i class="fa fa-search" aria-hidden="true"></i></strong>
                   <input type="text" name="search" id="search">
-                </label>
+                </a>
               </form>
             </li>
-			<li class="nav-item px-lg-4 dropdown-under">
-              <a class="nav-link text-uppercase text-expanded dropdown-toggle" data-toggle="dropdown" href="#"><strong>Účet</strong></a>
-			    <div class="dropdown-menu">
-				  <a class="dropdown-item" href="login.html">Prihlásenie</a>
-				  <a class="dropdown-item" href="registration.html">Registrácia</a>
-				</div>
+			<li class="nav-item px-lg-4">
+              <a class="text">Moja mama</a></br>
+			  <a class="text black-color" href="addRecipe.html"><strong>Odhlásiť</strong></a>
             </li>
           </ul>
         </div>
@@ -137,7 +134,7 @@
         </h2>
         <hr class="divider">
 
-        <form method="GET" action="addRecipeResult.html">
+        <form method="GET" action="addRecipeResult_afterLogin.html">
           <div class="row">
 
             <!-- ingrediencie -->

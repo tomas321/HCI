@@ -27,13 +27,13 @@
 
   <body>
 
-    <a class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block" href="addRecipe.html">ToVonia.sk!</a>
+    <a class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block" href="addRecipe_afterLogin.html">ToVonia.sk!</a>
     <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">Recepty, ktoré ti udrú do nosa.</div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
       <div class="container">
-        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="addRecipe.html">ToVonia.sk</a>
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="addRecipe_afterLogin.html">ToVonia.sk</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -65,72 +65,100 @@
 			  </div>
             </li>
             <li class="nav-item px-lg-4">
-              <form action="searchResult.html">
+              <form action="searchResult_afterLogin.html">
                 <label class="nav-link text-uppercase text-expanded" for="search" id="searchLabel">
                   <strong><i class="fa fa-search" aria-hidden="true"></i></strong>
                   <input type="text" name="search" id="search">
                 </label>
               </form>
             </li>
-			<li class="nav-item px-lg-4 dropdown-under">
-              <a class="nav-link text-uppercase text-expanded dropdown-toggle" data-toggle="dropdown" href="#"><strong>Účet</strong></a>
-			    <div class="dropdown-menu">
-				  <a class="dropdown-item" href="login.html">Prihlásenie</a>
-				  <a class="dropdown-item" href="registration.html">Registrácia</a>
-				</div>
+			<li class="nav-item px-lg-4">
+              <a class="text">Moja mama</a></br>
+			  <a class="text black-color" href="searchResult.html"><strong>Odhlásiť</strong></a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
+
     <div class="container">
 
-      <div class="bg-faded p-4 my-4">
+      <div class="bg-faded p-2 my-4">
         <hr class="divider">
-        <h2 class="text-center text-lg text-uppercase my-0">
-          <strong>Registrácia</strong>
+        <h2 class="text-center text-lg text-uppercase my-0">Výsledky hľadania pre
+          <strong>hovädzie mäso</strong>
         </h2>
         <hr class="divider">
-		</br>
+      </div>
+
+      <div class="bg-faded p-4 my-4">
         <div class="row">
-          <div class="col-md-6">
-            <form>
-              <div class="form-group">
-                <input type="text" name="" placeholder="Prihlasovacie meno" class="form-control">
-              </div>
-              <div class="form-group">
-                <input type="text" name="" placeholder="E-Mail" class="form-control">
-              </div>
-            </form>
+          <div class="col-lg-6">
+            <img class="img-fluid mb-4 mb-lg-0" src="img/svieckova.jpg" alt="">
           </div>
-          <div class="col-md-6">
-            <form>
-              <div class="form-group">
-                <input type="password" name="" placeholder="Heslo" class="form-control">
-              </div>
-              <div class="form-group">
-                <input type="password" name="" placeholder="Overenie hesla" class="form-control">
-              </div>
-            </form>
+          <div class="col-lg-6">
+            <h2 class="text-left text-lg text-uppercase my-0">
+              <a class="nav-link" href="detail.html"><strong><font size="+3">Sviečková na smotane</font></strong></a>
+            </h2>
+          </br>
+            <p><strong>Časový odhad</strong> - 3 hodiny</p>
+            <p><strong>Počet porcií</strong> - 6</p>
+            <p><strong>Náročnosť</strong> - pokročilý</p>
           </div>
-        </div>
-		</br>
-		<div class="text-center text-lg my-0">
-			<input type="checkbox" name="" value="agree"> Súhlasím s podmienkami [podmienky]<br></br>
-		</div>
-        <div class="form-group text-center">
-          <a href="addRecipe.html" class="btn"><strong>Zrušiť</strong>
-          </a>
-          <a href="registrationResult.html" class="btn"><strong>Zaregistrovať</strong>
-          </a>
         </div>
       </div>
-	  
-      
 
-    </div>
-    <!-- /.container -->
+      <div class="bg-faded p-4 my-4">
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="img-fluid mb-4 mb-lg-0" src="img/steak.jpg" alt="">
+          </div>
+          <div class="col-lg-6">
+            <h2 class="text-left text-lg text-uppercase my-0">
+              <a class="nav-link" href="detail.html"><strong><font size="+3">Hovädzí steak</font></strong></a>
+            </h2>
+          </br>
+            <p><strong>Časový odhad</strong> - 20 minút</p>
+            <p><strong>Počet porcií</strong> - 1</p>
+            <p><strong>Náročnosť</strong> - pokročilý</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-faded p-4 my-4">
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="img-fluid mb-4 mb-lg-0" src="img/tatarak.jpg" alt="">
+          </div>
+          <div class="col-lg-6">
+            <h2 class="text-left text-lg text-uppercase my-0">
+              <a class="nav-link" href="detail.html"><strong><font size="+3">Hovädzí tataráčik</font></strong></a>
+            </h2>
+          </br>
+            <p><strong>Časový odhad</strong> - 60 minút</p>
+            <p><strong>Počet porcií</strong> - 2</p>
+            <p><strong>Náročnosť</strong> - pokročilý</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-faded p-4 my-4">
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="img-fluid mb-4 mb-lg-0" src="img/gulas.jpg" alt="">
+          </div>
+          <div class="col-lg-6">
+            <h2 class="text-left text-lg text-uppercase my-0">
+              <a class="nav-link" href="detail.html"><strong><font size="+3">Hovädzí guláš</font></strong></a>
+            </h2>
+          </br>
+            <p><strong>Časový odhad</strong> - 3 hodiny</p>
+            <p><strong>Počet porcií</strong> - 4</p>
+            <p><strong>Náročnosť</strong> - začiatočník</p>
+          </div>
+        </div>
+      </div>
 
     <footer class="bg-faded text-center py-5">
       <div class="container">
@@ -144,5 +172,4 @@
     <script src="js/app.js"></script>
 
   </body>
-
 </html>

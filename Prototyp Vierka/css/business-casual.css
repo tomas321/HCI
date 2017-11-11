@@ -14,6 +14,9 @@ body {
   color: black;
 }
 
+.black-color {
+	color: black;
+}
 
 a.nav-link {
   color: black !important;
@@ -128,6 +131,13 @@ input[type=submit]{
 
 .addItem:hover{
   color: black;
+}
+
+.centerr {
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
 }
 
 .dropdown-under {
