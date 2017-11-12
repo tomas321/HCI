@@ -158,3 +158,22 @@ input[type=submit]{
 	font-weight: bold;
 }
 
+.main-header {
+  position: relative;
+}
+
+.add-recipe {
+  background-color: rgba(139, 69, 19, 0.6);
+  border: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  position: absolute;
+  right: 15px;
+  bottom: 0;
+  padding: 0.5rem 1rem;
+}
+
+.add-recipe:hover {
+  color: black;
+}
+
