@@ -11,7 +11,7 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  color: black;
+  color: white;
 }
 
 .black-color {
@@ -19,7 +19,7 @@ body {
 }
 
 a.nav-link {
-  color: black !important;
+  color: white !important;
 }
 
 h1, h2, h3, h4, h5, h6, .text-heading {
@@ -40,11 +40,13 @@ input::placeholder{
   font-size: 5rem;
   font-weight: 700;
   line-height: 1;
+  color: black !important;
 }
 
 .tagline-lower {
   font-size: 1.2rem;
   line-height: 1;
+  color: black !important;
 }
 
 .text-expanded {
@@ -60,7 +62,7 @@ input::placeholder{
 }
 
 .bg-faded {
-  background-color: rgba(139, 69, 19, 0.6);
+  background-color: rgba(139, 69, 19, 0.8);
 }
 
 .bg-overlay {
@@ -254,7 +256,7 @@ label.star:before {
 .comment .info a{	/* User name */
     display: block;
     text-decoration: none;
-    color: #010306;
+    color: white;
     font-weight: bold;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -449,5 +451,4 @@ label.star:before {
         width: 100%;
     }
 }
-
 
