@@ -1,114 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>ToVonia.sk!</title>
 
-  <head>
+<!-- Bootstrap core CSS -->
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-    <title>ToVonia.sk!</title>
+<!-- Custom fonts for this template -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- Bootstrap core CSS -->
+<!-- Custom styles for this template -->
+<link href="css/business-casual.css" rel="stylesheet">
+</head>
 
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<body>
+<a class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block" href="index_afterLogin.html">ToVonia.sk!</a>
+<div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">Recepty, ktoré ti udrú do nosa.</div>
+<div class="container main-header"> <a href="login.html" class="btn d-none d-lg-block text-uppercase add-recipe"><strong>Pridaj recept</strong></a> </div>
 
-
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- Custom styles for this template -->
-    <link href="css/business-casual.css" rel="stylesheet">
-
-  </head>
-
-  <body>
-
-    <a class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block" href="index_afterLogin.html">ToVonia.sk!</a>
-    <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">Recepty, ktoré ti udrú do nosa.</div>
-    <div class="container main-header">
-      <a href="addRecipe_afterLogin.html" class="btn d-none d-lg-block text-uppercase add-recipe"><strong>Pridaj recept</strong></a>
-    </div>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
-      <div class="container">
-        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="index_afterLogin.html">ToVonia.sk</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item px-lg-4 dropdown-under">
-              <a class="nav-link text-uppercase text-expanded" href="#"><strong>Predjedlá</strong></a>
-            </li>
-            <li class="nav-item px-lg-4 dropdown-under">
-              <a class="nav-link text-uppercase text-expanded" href="#"><strong>Polievky</strong></a>
-            </li>
-            <li class="nav-item px-lg-4 dropdown-under">
-              <a class="nav-link text-uppercase text-expanded dropdown-toggle" data-toggle="dropdown" href="#"><strong>Hlavné jedlá</strong></a>
-			  <div class="dropdown-menu">
-								<a class="dropdown-item" href="#">Kuracinka</a>
-								<a class="dropdown-item" href="#">Jahňacinka</a>
-								<a class="dropdown-item" href="#">Bravčovinka</a>
-								<a class="dropdown-item" href="#">Rybacinka</a>
-								<a class="dropdown-item" href="#">Hovädzinka</a>
-								<a class="dropdown-item" href="#">Teľacinka</a>
-			  </div>
-            </li>
-            <li class="nav-item px-lg-4 dropdown-under">
-              <a class="nav-link text-uppercase text-expanded dropdown-toggle" data-toggle="dropdown" href="#"><strong>Dezerty</strong></a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Torty</a>
-                <a class="dropdown-item" href="#">Zákusky</a>
-                <a class="dropdown-item" href="#">Koláče</a>
-              </div>
-            </li>
-            <li class="nav-item px-lg-4">
-              <form action="searchResult_afterLogin.html">
-                <label class="nav-link text-uppercase text-expanded" for="search" id="searchLabel">
-                  <strong><i class="fa fa-search" aria-hidden="true"></i></strong>
-                  <input type="text" name="search" id="search">
-                </label>
-              </form>
-            </li>
-            <li class="nav-item px-lg-4 dropdown-under d-lg-none">
-              <a class="nav-link text-uppercase text-expanded" href="addRecipe_afterLogin.html"><strong>Pridaj recept</strong></a>
-            </li>
-            <li class="nav-item px-lg-4">
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
+  <div class="container"> <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="index_afterLogin.html">ToVonia.sk</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item px-lg-4 dropdown-under"> <a class="nav-link text-uppercase text-expanded" href="#"><strong>Predjedlá</strong></a> </li>
+        <li class="nav-item px-lg-4 dropdown-under"> <a class="nav-link text-uppercase text-expanded" href="#"><strong>Polievky</strong></a> </li>
+        <li class="nav-item px-lg-4 dropdown-under"> <a class="nav-link text-uppercase text-expanded dropdown-toggle" data-toggle="dropdown" href="#"><strong>Hlavné jedlá</strong></a>
+          <div class="dropdown-menu"> <a class="dropdown-item" href="#">Kuracinka</a> <a class="dropdown-item" href="#">Jahňacinka</a> <a class="dropdown-item" href="#">Bravčovinka</a> <a class="dropdown-item" href="#">Rybacinka</a> <a class="dropdown-item" href="#">Hovädzinka</a> <a class="dropdown-item" href="#">Teľacinka</a> </div>
+        </li>
+        <li class="nav-item px-lg-4 dropdown-under"> <a class="nav-link text-uppercase text-expanded dropdown-toggle" data-toggle="dropdown" href="#"><strong>Dezerty</strong></a>
+          <div class="dropdown-menu"> <a class="dropdown-item" href="#">Torty</a> <a class="dropdown-item" href="#">Zákusky</a> <a class="dropdown-item" href="#">Koláče</a> </div>
+        </li>
+        <li class="nav-item px-lg-4">
+          <form action="searchResult_afterLogin.html">
+            <label class="nav-link text-uppercase text-expanded" for="search" id="searchLabel"> <strong><i class="fa fa-search" aria-hidden="true"></i></strong>
+              <input type="text" name="search" id="search">
+            </label>
+          </form>
+        </li>
+        <li class="nav-item px-lg-4 dropdown-under d-lg-none"> <a class="nav-link text-uppercase text-expanded" href="addRecipe_afterLogin.html"><strong>Pridaj recept</strong></a> </li>
+        <li class="nav-item px-lg-4">
               <a class="text">Moja mama</a></br>
-              <a class="text black-color" href="addRecipeResult.html"><strong>Odhlásiť</strong></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <div class="container">
-
-      <div class="bg-faded p-4 my-4">
-        <div class="nav-link text-uppercase text-expanded text-center">
-          <strong>Recept bol úspešne pridaný!</strong>
-        </div>
-      </div>
-
+              <a class="text black-color" href="detail.html"><strong>Odhlásiť</strong></a>
+        </li>
+      </ul>
     </div>
-    <!-- /.container -->
-
-    <footer class="bg-faded text-center py-5">
-      <div class="container">
-        <p class="m-0">Copyright &copy; Teddy Metal 2017</p>
+  </div>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-lg bg-faded p-4 mt-4 m-3">
+      <h2 class="text-center text-lg text-uppercase my-0"><strong>Recept bol úspešne pridaný.</strong></h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4 bg-faded p-4 mt-4 m-3">
+      <h2 class="text-center text-lg text-uppercase my-0"> <a class="nav-link" href="detail.html"><strong><font size="+3">Sviečková na smotane</font></strong></a> </h2>
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+      <div class="stars">
+        <form action="">
+          <input class="star star-5" id="star-5" type="radio" name="star"/>
+          <label class="star star-5" for="star-5"></label>
+          <input class="star star-4" id="star-4" type="radio" name="star"/>
+          <label class="star star-4" for="star-4"></label>
+          <input class="star star-3" id="star-3" type="radio" name="star"/>
+          <label class="star star-3" for="star-3"></label>
+          <input class="star star-2" id="star-2" type="radio" name="star"/>
+          <label class="star star-2" for="star-2"></label>
+          <input class="star star-1" id="star-1" type="radio" name="star"/>
+          <label class="star star-1" for="star-1"></label>
+        </form>
       </div>
-    </footer>
+      </br>
+      <p><strong>Časový odhad</strong> - 3 hodiny</p>
+      <p><strong>Počet porcií</strong> - 6</p>
+      <p><strong>Náročnosť</strong> - pokročilý</p>
+    </div>
+    <div class="col bg-faded p-4 mt-4 m-3"> <img class="img-fluid mb-4 mb-lg-0" src="img/svieckova.jpg" alt=""> </div>
+  </div>
+  <div class="row">
+    <div class="bg-faded p-4 m-3">
+      <h2 class="text-lg text-uppercase my-0"><strong><font size="+3">Popis:</font></strong></h2>
+      <hr color="black">
+      <p ><font size="3">Nieje dnes ideálne počasie na varenie a prikurovanie si v kuchyni, ale konečne som na Slovensku, tak dobieham všetko čo som nemohla variť v Egypte a zároveň otváram "gastronomické obzory" môjmu manželovy. Spokojne konštatujem, že sviečková ho očarila :o)</font></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 bg-faded p-4 m-3">
+      <h2 class="text-lg text-uppercase"><strong><font size="+3">Suroviny:</font></strong></h2>
+      <hr color="black">
+      <ul>
+        <li>hovädzie mäso - 2 kilo</li>
+        <li>zlenina - 4 kusy</li>
+        <li>knedľa - 1 kus</li>
+        <li>brusnice - 100 bobúľ</li>
+        <li>láska - 3 polievkové lyžice</li>
+      </ul>
+    </div>
+    <div class="col bg-faded p-4 m-3">
+      <center>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ky3Ordfqn88" frameborder="0" allowfullscreen></iframe>
+      </center>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-5 bg-faded p-4 m-3">
+      <h2 class="text-lg text-uppercase"><strong><font size="+3">Postup:</font></strong></h2>
+      <hr color="black">
+      <ol>
+        <li>ulov býka, pozor aby ťa nenabral na rohy!</li>
+        <li>odrež si kusisko sviečkovice.</li>
+        <li>hoď do hrnca a var aspoň dve - tri hodinky. Je ťažké odhadnúť správny čas, pokiaľ je však mäso krvavé, ešte nie je hotové.</li>
+        <li>napar knedľu</li>
+        <li>posyp brusnicami a servíruj :)</li>
+      </ol>
+    </div>
+    <div class="col bg-faded p-4 m-3">
+      <div class="constainer">
+        <div class="row">
+          <div class="col"> <img class="img-fluid mb-4 mb-lg-0" src="img/svieckova.jpg" alt=""> 1. ulov býka </div>
+          <div class="col"> <img class="img-fluid mb-4 mb-lg-0" src="img/svieckova.jpg" alt=""> 2. odrež mäso </div>
+        </div>
+        <div class="row my-3">
+          <div class="col"> <img class="img-fluid mb-4 mb-lg-0" src="img/svieckova.jpg" alt=""> 3. var mäso </div>
+          <div class="col"> <img class="img-fluid mb-4 mb-lg-0" src="img/svieckova.jpg" alt=""> 4. napar knedľu </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col p-4">
+      <h2 class="text-lg text-uppercase"><strong><font size="+3" color="black">Podobné recepty:</font></strong></h2>
+      <div class="row">
+        <div class="col bg-faded pt-3 mx-2"> <a href="detail.html"><img class="img-fluid mb-4 mb-lg-0" src="img/svieckova.jpg" alt=""> </a> Sviečková </div>
+        <div class="col bg-faded pt-3 mx-2"> <a href="detail.html"><img class="img-fluid mb-4 mb-lg-0" src="img/svieckova.jpg" alt=""> </a> Iná Sviečková </div>
+        <div class="col bg-faded pt-3 mx-2"> <a href="detail.html"><img class="img-fluid mb-4 mb-lg-0" src="img/svieckova.jpg" alt=""> </a> Zase Sviečková </div>
+        <div class="col bg-faded pt-3 mx-2"> <a href="detail.html"><img class="img-fluid mb-4 mb-lg-0" src="img/svieckova.jpg" alt=""> </a> Furt len Sviečková </div>
+      </div>
+    </div>
+  </div>
+  <div class="row bg-faded mx-5 mb-5">
+    <ul class="comment-section">
+      <li class="comment user-comment">
+        <div class="info"> <a href="#">Gizka Oňová</a> <span>4 hours ago</span> </div>
+        <a class="avatar" href="#"> <img src="img/avatar_user_1.jpg" width="35" /> </a>
+        <p>najlepšie na tomto recepte je, že v ňom nie sú oriešky!</p>
+      </li>
+      <li class="comment author-comment">
+        <div class="info"> <a href="#">Tvoja mama</a> <span>3 hours ago</span> </div>
+        <a class="avatar" href="#"> <img src="img/avatar_author.jpg" width="35" /> </a>
+        <p>Teším sa že chutilo :)</p>
+      </li>
+      <li class="comment user-comment">
+        <div class="info"> <a href="#">Starý</a> <span>1 hour ago</span> </div>
+        <a class="avatar" href="#"> <img src="img/avatar_user_2.jpg" width="35" /> </a>
+        <p>Dones pivo stará</p>
+      </li>
+      <li class="comment author-comment">
+        <div class="info"> <a href="#">Moja mama</a> <span>1 hour ago</span> </div>
+        <a class="avatar" href="#"> <img src="img/avatar_author.jpg" width="35" /> </a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisee gravida sem sit amet molestie porttitor. 😘 😉</p>
+      </li>
+      <li class="write-new">
+        <form action="#" method="post">
+          <textarea placeholder="Sem napíš svoj komentár" name="comment"></textarea>
+          <div> <img src="img/avatar_author.jpg" width="35" />
+            <button type="submit">Odoslať</button>
+          </div>
+        </form>
+      </li>
+    </ul>
+  </div>
+</div>
+<footer class="bg-faded text-center py-5">
+  <div class="container">
+    <p class="m-0">Copyright &copy; Teddy Metal 2017</p>
+  </div>
+</footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="js/app.js"></script>
-
-  </body>
-
+<!-- Bootstrap core JavaScript --> 
+<script src="vendor/jquery/jquery.min.js"></script> 
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<script src="js/app.js"></script>
+</body>
 </html>

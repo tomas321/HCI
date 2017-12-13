@@ -23,7 +23,7 @@ a.nav-link {
 }
 
 h1, h2, h3, h4, h5, h6, .text-heading {
-  font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 }
 
 h1 {
@@ -62,7 +62,7 @@ input::placeholder{
 }
 
 .bg-faded {
-  background-color: rgba(139, 69, 19, 0.8);
+  background-color: rgba(139, 69, 19, 0.95);
 }
 
 .bg-overlay {
@@ -165,7 +165,7 @@ input[type=submit]{
 }
 
 .add-recipe {
-  background-color: rgba(139, 69, 19, 0.6);
+  background-color: rgba(139, 69, 19, 0.9);
   border: none;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
